@@ -566,7 +566,7 @@ select:after {
     display: none; }
 
   .menu-mobile__list--active {
-    transform: translateX(0); }
+    transform: translateX(0%); }
 
   .services .services__inner .services__item-box {
     justify-content: center; }
