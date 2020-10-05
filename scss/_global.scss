@@ -1,0 +1,48 @@
+html {
+	box-sizing: border-box;
+}
+*,*::after,*::before{
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	margin: 0;
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+p {
+	color : #909aad;
+	font-size : 14px;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+h1, h2, h3, h4, h5, h6 {
+	color : #141414;
+	font-family : "Lato", sans-serif;
+	font-size : 18px;
+	font-weight : 800;
+	text-transform : uppercase;
+	line-height: 0;
+}
+h3{
+	color : #000;
+	font-family : "Montserrat", sans-serif;
+	font-weight : 400;
+}
+div{
+	display: block;
+}
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
